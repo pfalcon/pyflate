@@ -1,0 +1,217 @@
+------------------------------------------------------------
+revno: 31
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Mon 2007-01-22 01:32:30 +0000
+message:
+  make deflate output a little less noisey for release
+------------------------------------------------------------
+revno: 30
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Mon 2007-01-22 01:15:26 +0000
+message:
+  minor comment string updates
+------------------------------------------------------------
+revno: 29
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Mon 2007-01-22 01:11:17 +0000
+message:
+  fix two bugs in bzip2 decoding of extreme test cases;  change bzip2 block strings slightly
+------------------------------------------------------------
+revno: 28
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sun 2007-01-21 22:39:26 +0000
+message:
+  renaming to pyflate
+------------------------------------------------------------
+revno: 27
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sun 2007-01-21 18:56:44 +0000
+message:
+  add notices;  move "out" writing;  usage text;  remove GZ enum
+------------------------------------------------------------
+revno: 26
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Thu 2007-01-18 06:36:34 +0000
+message:
+  end of the night, all working, I think
+------------------------------------------------------------
+revno: 25
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Thu 2007-01-18 06:26:21 +0000
+message:
+  fix gzip again, endian issues
+------------------------------------------------------------
+revno: 24
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Thu 2007-01-18 05:40:24 +0000
+message:
+  make BWT several 1000x faster
+------------------------------------------------------------
+revno: 23
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Thu 2007-01-18 03:53:36 +0000
+message:
+  split stream detection out. fix bugs on bz2 multiple selectors
+------------------------------------------------------------
+revno: 22
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Thu 2007-01-18 02:32:42 +0000
+message:
+  bzip2 fixed, hopefully, along with repeat-at-end-of-stream off by one
+------------------------------------------------------------
+revno: 21
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Wed 2007-01-17 22:40:37 +0000
+message:
+  bzip2 was working, but now broken
+------------------------------------------------------------
+revno: 20
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2007-01-12 16:21:06 +0000
+message:
+  start to add bzip2 support, about to rewrite BitfieldBase
+------------------------------------------------------------
+revno: 19
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Wed 2007-01-10 04:04:48 +0000
+message:
+  print bits used for each header
+------------------------------------------------------------
+revno: 18
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Wed 2007-01-10 03:59:29 +0000
+message:
+  better printing
+------------------------------------------------------------
+revno: 17
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2006-12-22 03:01:15 +0000
+message:
+  convert Huffman code to OO.  speed up and try to load psyco
+------------------------------------------------------------
+revno: 16
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2006-12-22 01:44:00 +0000
+message:
+  profiling particularities
+------------------------------------------------------------
+revno: 15
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2006-12-22 01:10:40 +0000
+message:
+  convert to main();  print block start positions; add profiling option
+------------------------------------------------------------
+revno: 14
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Wed 2006-12-20 15:40:21 +0000
+message:
+  pre-faffing
+------------------------------------------------------------
+revno: 13
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sun 2006-12-17 15:59:24 +0000
+message:
+  replace b.count with b.tell()
+------------------------------------------------------------
+revno: 12
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sat 2006-12-16 04:47:19 +0000
+message:
+  more pruning, switch to readbits() and remove remaining leftovers
+------------------------------------------------------------
+revno: 11
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sat 2006-12-16 04:16:17 +0000
+message:
+  combine static and dynamic Huffman common paths, remove compression code
+------------------------------------------------------------
+revno: 10
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sat 2006-12-16 03:06:03 +0000
+message:
+  use find_next_symbol() everywhere and complete static dictionary work
+------------------------------------------------------------
+revno: 9
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sat 2006-12-16 02:25:02 +0000
+message:
+  refactoring code lengths reading
+------------------------------------------------------------
+revno: 8
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Sat 2006-12-16 00:49:13 +0000
+message:
+  consolidate find() functionality
+------------------------------------------------------------
+revno: 7
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2006-12-15 19:10:53 +0000
+message:
+  pre refactoring, still no static huffman dictionary lookup
+------------------------------------------------------------
+revno: 6
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2006-12-15 00:52:30 +0000
+message:
+  full and correct decompression (believed!)
+------------------------------------------------------------
+revno: 5
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Fri 2006-12-15 00:38:46 +0000
+message:
+  handles everything except length >= distance
+------------------------------------------------------------
+revno: 4
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Thu 2006-12-07 00:22:00 +0000
+message:
+  Fix handling of reverse_bits() when middle bit is 1
+------------------------------------------------------------
+revno: 3
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Wed 2006-12-06 23:58:16 +0000
+message:
+  Decoded 1,2,3,4,5 from static huffman!
+------------------------------------------------------------
+revno: 2
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Wed 2006-12-06 22:06:55 +0000
+message:
+  huffman tree generation done
+------------------------------------------------------------
+revno: 1
+committer: Paul Sladen <paul@katu>
+branch nick: pyflate
+timestamp: Tue 2006-12-05 20:33:21 +0000
+message:
+  initial checkin

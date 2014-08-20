@@ -1,0 +1,39 @@
+Copyright 2006--2007-01-21 Paul Sladen
+
+  http://www.paul.sladen.org/projects/compression/
+
+You may use and distribute this code and documentation under any
+DFSG-compatible license (eg. BSD, GNU GPLv2).
+
+Stand-alone pure-Python DEFLATE (gzip) and bzip2 decoder/decompressor,
+'pyflate'.
+
+Example:
+
+  $ ./pyflate.py foo.bz2
+  ...
+  $ ls -l out
+
+  $ ./pyflate.py bar.gz
+  ...
+  $ ls -l out
+
+For the moment, if the decoding is apparently successful, then output
+is written (in one go) to a file called 'out', in the current directory
+(yes, it'll overwrite whatever was there before...).
+
+The source code maybe useful for learning about the DEFLATE and Bzip2
+algorithms.  If you look through you'll see the huge number of 'print'
+statements in the source code, feel free to uncomment some of them!
+
+As a result of this learning experience, I've been able to update the
+Wikipedia pages with useful technical descriptions:
+
+  http://en.wikipedia.org/wiki/bzip2
+  http://en.wikipedia.org/wiki/DEFLATE
+
+Perhaps you could check and see if they could be improved!
+
+	-Paul Sladen, 2007-01-22
+-- 
+Southampton, GB
